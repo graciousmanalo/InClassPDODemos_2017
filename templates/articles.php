@@ -49,7 +49,7 @@
                             <tbody>";
                     foreach($article_list as $row){
                         echo "<tr>
-                                <td><a href='article.php?id=$row{['id']}'>{$row['title']}</a></td>
+                                <td><a href='article.php?id={$row['id']}'>{$row['title']}</a></td>
                                 <td>{$row['description']}</td>
                               </tr>";  
 
