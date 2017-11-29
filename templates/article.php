@@ -15,7 +15,7 @@
         require MySQL;
         
         //4. Build the SQL Query
-        $stmt = $cnt->prepare("SELECT id, title, content
+        $stmt = $dbc->prepare("SELECT id, title, content
                                FROM pages
                                WHERE id=:id");
         //Using PDO prepared statement with the following named parameter
