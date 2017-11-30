@@ -7,6 +7,7 @@
     $pages = array(
         'Home'=>'/InClassPDODemos/index.php',
         'Categories'=>'/InClassPDODemos/categories.php',
+        'Add Category'=>'/InClassPDODemos/addCategory.php',
         'Articles'=>'/InClassPDODemos/articles.php',
         'About'=>'/InClassPDODemos/about.php',
         'Services'=>'/InClassPDODemos/services.php',
